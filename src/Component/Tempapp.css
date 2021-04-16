@@ -1,0 +1,54 @@
+.card{
+    height: 554px;
+    height: 554px;
+    background: rgb(9 9 106 / 65%);
+    box-shadow: 0 8px 32px 0 rgb(10 10 11 / 49%);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+   
+}
+
+.text{
+    font-size: 60px;
+}
+
+
+.img{
+    height: 450px;
+    width: 460px;
+    float: right;
+    margin-top: -66px;
+
+}
+
+.fn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width:1198px) and (min-width:200px) {
+    
+.img{
+    height: 350px;
+    width: 318px;
+    float: right;
+    margin-top: -66px;
+
+}
+}
+
+
+@media (max-width:990px) and (min-width:200px) {
+    
+    .img{
+        height: 300px;
+        width: 268px;
+        float: right;
+        margin-top: -66px;
+        margin-right: 7px;
+    
+    }
+    .card{
+        height: 680px;
+    }
+    }
